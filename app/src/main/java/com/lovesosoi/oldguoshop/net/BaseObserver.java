@@ -12,11 +12,11 @@ import com.lookbi.baselib.net.ExceptionHelper;
 import com.lookbi.baselib.utils.DialogUtils;
 import com.lookbi.baselib.utils.LogUtil;
 import com.lookbi.baselib.utils.SPUtil;
-import com.lookbi.womenprison.AppContext;
-import com.lookbi.womenprison.constant.EventConstant;
-import com.lookbi.womenprison.constant.NoCodeConstant;
-import com.lookbi.womenprison.ui.login.LoginActivity;
-import com.lookbi.womenprison.utils.UtilTools;
+import com.lovesosoi.oldguoshop.AppContext;
+import com.lovesosoi.oldguoshop.MainActivity;
+import com.lovesosoi.oldguoshop.constant.EventConstant;
+import com.lovesosoi.oldguoshop.constant.NoCodeConstant;
+import com.lovesosoi.oldguoshop.utils.UtilTools;
 
 import io.reactivex.Observer;
 import io.reactivex.disposables.Disposable;
@@ -121,7 +121,7 @@ public abstract class BaseObserver<T> implements Observer<BaseBean<T>> {
                     EventBusUtil.post(EventConstant.LOGOUT_SUCCESS);
                     AppContext.getInstance().setToken(null);
                     AppContext.getInstance().setMember(null);
-                    Intent intent = new Intent(mContext, LoginActivity.class);
+                    Intent intent = new Intent(mContext, MainActivity.class);
                     intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                     mContext.startActivity(intent);
 //                    mContext.finish();

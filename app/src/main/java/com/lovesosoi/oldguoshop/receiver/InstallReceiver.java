@@ -9,8 +9,9 @@ import android.os.Build;
 import android.support.v4.content.FileProvider;
 import android.util.Log;
 
-import com.lookbi.xzyp.utils.ApkUpdate;
-import com.lookbi.xzyp.utils.UpdateCommon;
+
+import com.lovesosoi.oldguoshop.utils.ApkUpdate;
+import com.lovesosoi.oldguoshop.utils.UpdateCommon;
 
 import java.io.File;
 

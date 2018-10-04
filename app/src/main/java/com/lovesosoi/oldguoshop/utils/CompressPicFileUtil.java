@@ -6,7 +6,7 @@ package com.lovesosoi.oldguoshop.utils;
 
 import com.lookbi.baselib.lisenter.OnLubanLisenter;
 import com.lookbi.baselib.utils.LogUtil;
-import com.lookbi.womenprison.AppContext;
+import com.lovesosoi.oldguoshop.AppContext;
 
 import java.io.File;
 

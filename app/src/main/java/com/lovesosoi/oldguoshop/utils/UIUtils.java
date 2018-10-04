@@ -10,7 +10,7 @@ import android.util.TypedValue;
 import android.view.Display;
 import android.view.WindowManager;
 
-import com.lookbi.womenprison.AppContext;
+import com.lovesosoi.oldguoshop.AppContext;
 
 
 /**

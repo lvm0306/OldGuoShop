@@ -6,12 +6,12 @@ import android.content.pm.PackageManager;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 
-import com.lookbi.baselib.bean.NewApkInfo;
 import com.lookbi.baselib.net.RxSchedulers;
 import com.lookbi.baselib.utils.DialogUtils;
 import com.lookbi.baselib.utils.LogUtil;
-import com.lookbi.womenprison.net.Api;
-import com.lookbi.womenprison.net.BaseObserver;
+import com.lovesosoi.oldguoshop.bean.NewApkInfo;
+import com.lovesosoi.oldguoshop.net.Api;
+import com.lovesosoi.oldguoshop.net.BaseObserver;
 
 import java.io.File;
 

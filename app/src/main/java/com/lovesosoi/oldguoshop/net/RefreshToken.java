@@ -12,25 +12,25 @@ import io.reactivex.Observer;
 
 
 public class RefreshToken {
-    public static void refreshToken(final Activity context,String token) {
-//        String token = SPUtil.getString(context, "TOKEN", "");
-        Observer mObserver = new BaseObserver<Token>(context, null) {
-            @Override
-            protected void onSuccess(Token mData) {
-                AppContext.getInstance().setToken(mData);
-            }
-            @Override
-            protected void onError(String msg) {
-                LogUtil.e("刷新token失败"+msg);
-            }
-
-            @Override
-            protected void onEnd() {
-
-            }
-        };
-        Api.getService().refresh(token,"1")
-                .compose(RxSchedulers.compose(context))
-                .subscribe(mObserver);
-    }
+//    public static void refreshToken(final Activity context,String token) {
+////        String token = SPUtil.getString(context, "TOKEN", "");
+//        Observer mObserver = new BaseObserver<Token>(context, null) {
+//            @Override
+//            protected void onSuccess(Token mData) {
+//                AppContext.getInstance().setToken(mData);
+//            }
+//            @Override
+//            protected void onError(String msg) {
+//                LogUtil.e("刷新token失败"+msg);
+//            }
+//
+//            @Override
+//            protected void onEnd() {
+//
+//            }
+//        };
+//        Api.getService().refresh(token,"1")
+//                .compose(RxSchedulers.compose(context))
+//                .subscribe(mObserver);
+//    }
 }

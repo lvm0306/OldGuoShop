@@ -3,7 +3,7 @@ package com.lovesosoi.oldguoshop.utils;
 import android.content.Context;
 import android.widget.Toast;
 
-import com.lookbi.womenprison.AppContext;
+import com.lovesosoi.oldguoshop.AppContext;
 
 
 /**

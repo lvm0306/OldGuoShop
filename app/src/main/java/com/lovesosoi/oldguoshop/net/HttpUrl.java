@@ -1,7 +1,7 @@
 package com.lovesosoi.oldguoshop.net;
 
 
-import com.lookbi.womenprison.AppContext;
+import com.lovesosoi.oldguoshop.AppContext;
 
 /**
  * Created by zhangyisheng on 2017/11/17.
