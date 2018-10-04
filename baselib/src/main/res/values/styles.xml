@@ -1,0 +1,285 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="ToolBarStyle" parent="Theme.AppCompat.NoActionBar">
+        <item name="actionMenuTextColor">@android:color/black</item>
+        <!-- 标题titile字体颜色 -->
+        <item name="android:textColorPrimary">#000</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <!-- Actionbar color -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <!--Status bar color-->
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!--Window color-->
+        <item name="android:windowBackground">@color/bg_color</item>
+        <!-- toolbar的menu字体大小 -->
+        <item name="android:textSize">@dimen/textsize_32</item>
+    </style>
+
+
+    <style name="custom_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <!-- Dialog的windowFrame框为无 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 是否漂现在activity上 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- 是否半透明 -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <!-- 去除黑色边框的关键设置项 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- 屏幕背景是否变暗 -->
+        <item name="android:backgroundDimAmount">0.5</item>
+    </style>
+
+    <style name="TabTextStyle">
+        <item name="android:textSize">@dimen/textsize_30</item>
+    </style>
+
+    <style name="padding_t15_l30_b15_r30">
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingRight">15dp</item>
+    </style>
+
+    <style name="padding_t5_l10_b5_r10">
+        <item name="android:paddingBottom">2.5dp</item>
+        <item name="android:paddingTop">2.5dp</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+    </style>
+
+    <style name="padding_t3_l10_b3_r10">
+        <item name="android:paddingBottom">1.5dp</item>
+        <item name="android:paddingTop">1.5dp</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+    </style>
+
+    <style name="padding_t12_l30_b12_r30">
+        <item name="android:paddingBottom">6dp</item>
+        <item name="android:paddingTop">6dp</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingRight">15dp</item>
+    </style>
+
+    <style name="padding_t10_l25_b10_r25">
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingLeft">12.5dp</item>
+        <item name="android:paddingRight">12.5dp</item>
+    </style>
+
+    <style name="padding_t35_l30_b35_r30">
+        <item name="android:paddingBottom">17dp</item>
+        <item name="android:paddingTop">17dp</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingRight">15dp</item>
+    </style>
+
+    <style name="padding_t40_l30_b40_r30">
+        <item name="android:paddingBottom">20dp</item>
+        <item name="android:paddingTop">20dp</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingRight">15dp</item>
+    </style>
+    <style name="padding_t30_l25_b30_r25">
+        <item name="android:paddingBottom">15dp</item>
+        <item name="android:paddingTop">15dp</item>
+        <item name="android:paddingLeft">12.5dp</item>
+        <item name="android:paddingRight">12.5dp</item>
+    </style>
+
+
+    <style name="margin_t15_l30_b15_r30">
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginLeft">15dp</item>
+        <item name="android:layout_marginRight">15dp</item>
+    </style>
+
+    <style name="margin_l30_r30">
+        <item name="android:layout_marginLeft">15dp</item>
+        <item name="android:layout_marginRight">15dp</item>
+    </style>
+
+    <style name="margin_t15_b15">
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+    </style>
+
+    <style name="margin10">
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+    </style>
+
+    <style name="margin15">
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginLeft">17.5dp</item>
+        <item name="android:layout_marginRight">17.5dp</item>
+    </style>
+
+    <style name="margin20">
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+    </style>
+
+    <style name="margin25">
+        <item name="android:layout_marginBottom">12.5dp</item>
+        <item name="android:layout_marginTop">12.5dp</item>
+        <item name="android:layout_marginLeft">12.5dp</item>
+        <item name="android:layout_marginRight">12.5dp</item>
+    </style>
+
+    <style name="margin30">
+        <item name="android:layout_marginBottom">15dp</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:layout_marginLeft">15dp</item>
+        <item name="android:layout_marginRight">15dp</item>
+    </style>
+
+    <style name="margin3">
+        <item name="android:layout_marginBottom">1.5dp</item>
+        <item name="android:layout_marginTop">1.5dp</item>
+        <item name="android:layout_marginLeft">1.5dp</item>
+        <item name="android:layout_marginRight">1.5dp</item>
+    </style>
+
+    <style name="margin35">
+        <item name="android:layout_marginBottom">17dp</item>
+        <item name="android:layout_marginTop">17dp</item>
+        <item name="android:layout_marginLeft">17dp</item>
+        <item name="android:layout_marginRight">17dp</item>
+    </style>
+
+    <style name="margin40">
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+    </style>
+
+    <style name="padding_l30_r30">
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingRight">15dp</item>
+    </style>
+
+    <style name="padding_t15_b15">
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:paddingTop">5dp</item>
+    </style>
+
+    <style name="padding_t30_b30">
+        <item name="android:paddingBottom">15dp</item>
+        <item name="android:paddingTop">15dp</item>
+    </style>
+
+    <style name="padding_t40_b40">
+        <item name="android:paddingBottom">20dp</item>
+        <item name="android:paddingTop">20dp</item>
+    </style>
+
+    <style name="padding10">
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+    </style>
+
+    <style name="padding15">
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingLeft">17.5dp</item>
+        <item name="android:paddingRight">17.5dp</item>
+    </style>
+
+    <style name="padding20">
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+    </style>
+
+    <style name="padding25">
+        <item name="android:paddingBottom">12.5dp</item>
+        <item name="android:paddingTop">12.5dp</item>
+        <item name="android:paddingLeft">12.5dp</item>
+        <item name="android:paddingRight">12.5dp</item>
+    </style>
+
+    <style name="padding30">
+        <item name="android:paddingBottom">15dp</item>
+        <item name="android:paddingTop">15dp</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingRight">15dp</item>
+    </style>
+    <style name="padding_tb25_lr30">
+        <item name="android:paddingBottom">12.5dp</item>
+        <item name="android:paddingTop">12.5dp</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingRight">15dp</item>
+    </style>
+
+    <style name="padding35">
+        <item name="android:paddingBottom">17dp</item>
+        <item name="android:paddingTop">17dp</item>
+        <item name="android:paddingLeft">17dp</item>
+        <item name="android:paddingRight">17dp</item>
+    </style>
+
+    <style name="padding40">
+        <item name="android:paddingBottom">20dp</item>
+        <item name="android:paddingTop">20dp</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:paddingRight">20dp</item>
+    </style>
+    <!-- 主页RadioButton样式 -->
+    <!--<style name="main_content_rb_style">-->
+    <!--<item name="android:textSize">@dimen/textsize_20</item>-->
+    <!--<item name="android:layout_weight">1</item>-->
+    <!--<item name="android:background">@color/white</item>-->
+    <!--<item name="android:drawablePadding">@dimen/px_5</item>-->
+    <!--<item name="android:textColor">@drawable/rb_tap_textcolor_selector</item>-->
+    <!--<item name="android:layout_width">0dp</item>-->
+    <!--<item name="android:paddingTop">6dp</item>-->
+    <!--<item name="android:layout_height">match_parent</item>-->
+    <!--<item name="android:button">@null</item>-->
+    <!--<item name="android:gravity">center</item>-->
+    <!--</style>-->
+
+    <!-- PopupWindow动画效果 -->
+    <style name="popwindow_anim_style">
+        <item name="android:windowEnterAnimation">@anim/popshow_anim</item>
+        <item name="android:windowExitAnimation">@anim/pophidden_anim</item>
+    </style>
+
+    <!--在底部的dialog-->
+    <style name="BottomDialog" parent="@style/AppTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+
+    <style name="CustomActionModeStyle" parent="Base.Widget.AppCompat.ActionMode">
+        <item name="background">@color/multiple_image_select_primaryDark</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+</resources>
