@@ -20,9 +20,7 @@ public class RefreshToken {
 //                AppContext.getInstance().setToken(mData);
 //            }
 //            @Override
-//            protected void onError(String msg) {
-//                LogUtil.e("刷新token失败"+msg);
-//            }
+//            protected void onError(Strin===================================================================================================================================================================
 //
 //            @Override
 //            protected void onEnd() {

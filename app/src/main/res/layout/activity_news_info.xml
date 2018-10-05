@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.notice.NoticeInfoActivity">
+
+
+    <View
+        android:id="@id/view_top"
+        android:layout_width="fill_parent"
+        android:layout_height="1.0dip"
+        android:background="@color/white" />
+
+    <android.support.v7.widget.Toolbar
+        android:id="@id/toolbar"
+        android:layout_width="fill_parent"
+        android:layout_height="45.0dip"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="消息详情"
+            android:textColor="@color/color_333"
+            android:textSize="@dimen/textsize_36" />
+
+    </android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/tv_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="15dp"
+        android:text="奚梦瑶成为中国区维密大使刚刚秘密官维多利亚的秘密官发布消息，即日起正式担任维多利亚的秘密维密大使刚刚秘密官维多利亚的奚梦瑶成为中国区维密大使刚刚秘密官维多利亚的秘密官微发布消息..."
+        android:textColor="#555555"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="40dp"
+        android:text="2018-08-28"
+        android:textColor="@color/color_999"
+        android:textSize="12sp" />
+
+
+</LinearLayout>

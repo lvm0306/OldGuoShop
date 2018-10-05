@@ -1,6 +1,7 @@
 package com.lookbi.baselib.base;
 
 import android.Manifest;
+import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.os.Build;
@@ -31,6 +32,7 @@ public abstract class BaseActivity<V, P extends BasePresenterImpl<V>> extends
     private Unbinder unbinder = null;
     protected ImmersionBar mImmersionBar;
     protected P mPresenter;
+    public Context mContext;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -51,6 +53,7 @@ public abstract class BaseActivity<V, P extends BasePresenterImpl<V>> extends
         }
         unbinder = ButterKnife.bind(this);
         mImmersionBar = ImmersionBar.with(this);
+        mContext = this;
 //        mImmersionBar.init();
         setStatus();
         initView();

@@ -66,17 +66,17 @@ android {
     productFlavors {
         //测试环境
         offLine {
-            applicationId 'com.lookbi.xzyp'
+            applicationId 'com.lovesosoi.oldguoshop'
             manifestPlaceholders = [
-                    app_name: "测-小臻优品"
+                    app_name: "测-水果店"
             ]
             resValue("string", "baseUrl", "http://xzyp.ketao.com/")
         }
         //生产环境
         onLine {
-            applicationId 'com.lookbi.xzyp'
+            applicationId 'com.lovesosoi.oldguoshop'
             manifestPlaceholders = [
-                    app_name: "小臻优品"
+                    app_name: "水果店"
             ]
             resValue("string", "baseUrl", "http://xzyp.1netbi.com/")
         }
@@ -87,6 +87,7 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'com.android.support:appcompat-v7:28.0.0'
     implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+    implementation 'com.android.support:support-v4:28.0.0'
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'

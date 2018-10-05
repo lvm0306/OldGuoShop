@@ -13,7 +13,7 @@ import com.lookbi.baselib.utils.DialogUtils;
 import com.lookbi.baselib.utils.LogUtil;
 import com.lookbi.baselib.utils.SPUtil;
 import com.lovesosoi.oldguoshop.AppContext;
-import com.lovesosoi.oldguoshop.MainActivity;
+import com.lovesosoi.oldguoshop.ui.main.MainActivity;
 import com.lovesosoi.oldguoshop.constant.EventConstant;
 import com.lovesosoi.oldguoshop.constant.NoCodeConstant;
 import com.lovesosoi.oldguoshop.utils.UtilTools;
